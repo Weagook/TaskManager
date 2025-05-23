@@ -1,0 +1,17 @@
+[project]
+name = "task_manager"
+version = "0.1.0"
+description = "Allows you to manage tasks in real time"
+authors = [{ name = "Yuri Serebrenikov", email = "weagook@gmail.com" }]
+requires-python = ">=3.11"
+dependencies = [
+    "asyncpg>=0.30.0",
+    "fastapi>=0.115.12",
+    "pydantic-settings>=2.8.1",
+    "sqlalchemy>=2.0.41",
+    "uvicorn>=0.33.0",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
